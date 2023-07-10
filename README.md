@@ -11,7 +11,7 @@ My personal website
 
 ### How to clone it ?
 ```sh
-$> git clone https://github.com/LucasAstley/lucas-astley.me-V2
+git clone https://github.com/LucasAstley/lucas-astley.me-V2
 ```
 <br>
 
