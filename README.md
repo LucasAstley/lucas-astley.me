@@ -3,7 +3,7 @@ My personal website
 <br>
 [📎 Link](https:lucas-astley.me) Official version
 <br>
-[🔧 Dev Link](https:lucas-astley.me/dev) In development version
+[📎 Dev Link](https:lucas-astley.me/dev) In development version
 <br>
 
 ✔️ This project is free to use and edit for your personnal or professional usage
