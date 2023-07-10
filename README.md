@@ -2,6 +2,7 @@
 My personal website
 <br>
 [📎 Link](https:lucas-astley.me) Official version
+<br>
 [🔧 Dev Link](https:lucas-astley.me/dev) In development version
 <br>
 
