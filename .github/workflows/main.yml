@@ -1,21 +1,16 @@
-name: Upload complete repo to a SFTP server
-
-on: [push]
-
+on: push
+name: Publish Website
 jobs:
-  Upload-to-SFTP:
+  FTP-Deploy-Action:
+    name: FTP-Deploy-Action
     runs-on: ubuntu-latest
     steps:
-      - name: 🚚 Get latest code                     # Checkout the latest code
-        uses: actions/checkout@v2
-
-      - name: 📂 SFTP uploader                       # Upload to SFTP 
-        uses: wangyucode/sftp-upload-action@v2.0.2
-        with:
-          host: ${{ secrets.HOST }}                  # Recommended to put the credentials in github secrets.
-          username: ${{ secrets.USER }}
-          password: ${{ secrets.PASSWORD }}
-          port: ${{ secrets.PORT }}
-          forceUpload: true                          # Optional, Force uploading all files, Default to false(upload only newer files).
-          localDir: '.'                              # Required, Absolute or relative to cwd.
-          remoteDir: '/var/www/html/dev'             # Required, Absolute path only.
+    - uses: actions/checkout@v2.1.0
+      with:
+        fetch-depth: 2
+    - name: FTP-Deploy-Action
+      uses: SamKirkland/FTP-Deploy-Action@3.1.1
+      with:
+        ftp-server: ${{ secrets.HOST }}
+        ftp-username: ${{ secrets.USERNAME }}
+        ftp-password: ${{ secrets.PASSWORD }}
