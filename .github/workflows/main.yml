@@ -17,5 +17,5 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           forceUpload: true                          # Optional, Force uploading all files, Default to false(upload only newer files).
-          localDir: './*'                            # Required, Absolute or relative to cwd.
+          localDir: '.'                              # Required, Absolute or relative to cwd.
           remoteDir: '/var/www/html/dev'             # Required, Absolute path only.
