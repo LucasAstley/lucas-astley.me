@@ -34,5 +34,3 @@ jobs:
           # files will copy to under remote_path
           remote_path: /var/www/html/dev
           
-          # sftp args
-          args: '-o ConnectTimeout=5'
