@@ -13,4 +13,4 @@ git clone https://github.com/LucasAstley/lucas-astley.me
 ```
 <br>
 
-☕ You can support me by [buying me a coffee](https://www.buymeacoffee.com/lucasastley) (or a beer)
+☕ You can support me by [buying me a coffee](https://www.buymeacoffee.com/lucasastley)
