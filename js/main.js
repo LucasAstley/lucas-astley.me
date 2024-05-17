@@ -19,11 +19,12 @@
 			return navigator.userAgent.match(/IEMobile/i);
 		},
 			any: function() {
-			return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+			//return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+			return false
 		}
 	};
 
-	
+
 	var fullHeight = function() {
 
 		if ( !isMobile.any() ) {
@@ -138,11 +139,11 @@
 	$(function(){
 		contentWayPoint();
 		goToTop();
-		loaderPage();
 		fullHeight();
 		parallax();
 		// pieChart();
 		skillsWayPoint();
+		loaderPage();
 	});
 
 
