@@ -47,13 +47,13 @@ body {
 }
 
 a {
-  color: #ac6dff;
+  color: #ba571c;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #ac6dff;
+  color: #ba571c;
   outline: none;
   text-decoration: none;
 }
@@ -71,17 +71,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #8325ffbb;
+  background: #ba571c;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #8325ffbb;
+  background: #ba571c;
 }
 
 ::selection {
   color: #fff;
-  background: #8325ffbb;
+  background: #ba571c;
 }
 
 #fh5co-header,
@@ -100,7 +100,7 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: #ac6dff80;
+  background: rgba(186, 87, 28, 0.5);
   
 }
 #fh5co-header .display-t,
