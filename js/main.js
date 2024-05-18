@@ -143,8 +143,11 @@
 		parallax();
 		// pieChart();
 		skillsWayPoint();
-		loaderPage();
 	});
+
+	window.onload = function () {
+		loaderPage();
+	};
 
 
 }());
